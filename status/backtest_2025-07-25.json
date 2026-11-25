@@ -1,0 +1,79 @@
+{
+ "as_of": "2025-07-25",
+ "window_days": 120,
+ "generated": "2026-11-12T13:14:40Z",
+ "lakes": [
+  {
+   "id": "merzbacher",
+   "name": "Merzbacher ice-dammed lake",
+   "country": "Kyrgyzstan",
+   "type": "ice-dammed",
+   "status": "POSSIBLE DRAINAGE",
+   "recent_km2": 1.2895,
+   "baseline_km2": 0.8383,
+   "change_pct": 53.8,
+   "clear_scenes": 14,
+   "last_scene": "2025-07-22",
+   "map": "https://www.google.com/maps/@42.2125,79.8650,3000m/data=!3m1!1e3",
+   "series": [
+    [
+     "2025-05-03",
+     0.444
+    ],
+    [
+     "2025-05-08",
+     0.0054
+    ],
+    [
+     "2025-05-11",
+     0.0748
+    ],
+    [
+     "2025-05-13",
+     0.0772
+    ],
+    [
+     "2025-05-16",
+     0.1648
+    ],
+    [
+     "2025-05-21",
+     0.0388
+    ],
+    [
+     "2025-06-05",
+     1.2884
+    ],
+    [
+     "2025-06-07",
+     1.2327
+    ],
+    [
+     "2025-06-19",
+     1.6795
+    ],
+    [
+     "2025-06-25",
+     1.8535
+    ],
+    [
+     "2025-06-27",
+     1.7804
+    ],
+    [
+     "2025-06-30",
+     1.7039
+    ],
+    [
+     "2025-07-02",
+     2.378
+    ],
+    [
+     "2025-07-22",
+     0.201
+    ]
+   ]
+  }
+ ],
+ "rules_note": "status recomputed with the current rules (both latest scenes) from the stored scene series"
+}

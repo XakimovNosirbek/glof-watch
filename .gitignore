@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+/data/
+/out/
+.claude/
+CLAUDE.md
+.DS_Store
+.netrc
+*.env
+/research_notes/
+/reports/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+.ipynb_checkpoints/

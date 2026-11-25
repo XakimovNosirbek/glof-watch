@@ -1,0 +1,178 @@
+{
+ "as_of": "2026-11-23",
+ "window_days": 120,
+ "generated": "2026-11-23T12:08:59Z",
+ "lakes": [
+  {
+   "id": "imja_tsho",
+   "name": "Imja Tsho",
+   "country": "Nepal",
+   "type": "moraine-dammed",
+   "status": "OK",
+   "recent_km2": 2.0368,
+   "baseline_km2": 1.9868,
+   "change_pct": 2.5,
+   "clear_scenes": 9,
+   "last_scene": "2026-11-22",
+   "map": "https://www.google.com/maps/@27.8987,86.9240,3000m/data=!3m1!1e3",
+   "series": [
+    [
+     "2026-10-03",
+     1.966
+    ],
+    [
+     "2026-10-13",
+     1.9814
+    ],
+    [
+     "2026-10-18",
+     1.9795
+    ],
+    [
+     "2026-10-23",
+     1.9868
+    ],
+    [
+     "2026-10-28",
+     1.9902
+    ],
+    [
+     "2026-11-12",
+     1.9899
+    ],
+    [
+     "2026-11-17",
+     2.0078
+    ],
+    [
+     "2026-11-19",
+     2.0254
+    ],
+    [
+     "2026-11-22",
+     2.0483
+    ]
+   ]
+  },
+  {
+   "id": "lower_ngole",
+   "name": "Lower Ngole (Thame 2024 GLOF source)",
+   "country": "Nepal",
+   "type": "moraine-dammed",
+   "status": "NO DATA",
+   "recent_km2": null,
+   "baseline_km2": null,
+   "change_pct": null,
+   "clear_scenes": 0,
+   "last_scene": null,
+   "map": "https://www.google.com/maps/@27.8278,86.5727,3000m/data=!3m1!1e3",
+   "series": []
+  },
+  {
+   "id": "shisper",
+   "name": "Shisper ice-dammed lake",
+   "country": "Pakistan",
+   "type": "ice-dammed",
+   "status": "OK",
+   "recent_km2": 0.0006,
+   "baseline_km2": 0.0,
+   "change_pct": null,
+   "clear_scenes": 9,
+   "last_scene": "2026-11-17",
+   "map": "https://www.google.com/maps/@36.3630,74.5650,3000m/data=!3m1!1e3",
+   "series": [
+    [
+     "2026-08-02",
+     0.0
+    ],
+    [
+     "2026-08-17",
+     0.0
+    ],
+    [
+     "2026-08-27",
+     0.0
+    ],
+    [
+     "2026-08-29",
+     0.0
+    ],
+    [
+     "2026-09-06",
+     0.0
+    ],
+    [
+     "2026-10-21",
+     0.0071
+    ],
+    [
+     "2026-10-28",
+     0.0
+    ],
+    [
+     "2026-11-15",
+     0.0013
+    ],
+    [
+     "2026-11-17",
+     0.0
+    ]
+   ]
+  },
+  {
+   "id": "merzbacher",
+   "name": "Merzbacher ice-dammed lake",
+   "country": "Kyrgyzstan",
+   "type": "ice-dammed",
+   "status": "OK",
+   "recent_km2": 0.4866,
+   "baseline_km2": 0.1348,
+   "change_pct": 260.8,
+   "clear_scenes": 10,
+   "last_scene": "2026-10-25",
+   "map": "https://www.google.com/maps/@42.2125,79.8650,3000m/data=!3m1!1e3",
+   "series": [
+    [
+     "2026-08-24",
+     0.5381
+    ],
+    [
+     "2026-08-26",
+     0.3567
+    ],
+    [
+     "2026-08-29",
+     0.1145
+    ],
+    [
+     "2026-09-10",
+     0.0411
+    ],
+    [
+     "2026-09-15",
+     0.1053
+    ],
+    [
+     "2026-09-18",
+     0.1552
+    ],
+    [
+     "2026-09-28",
+     0.1649
+    ],
+    [
+     "2026-09-30",
+     0.0543
+    ],
+    [
+     "2026-10-03",
+     0.1224
+    ],
+    [
+     "2026-10-25",
+     0.8508
+    ]
+   ]
+  }
+ ]
+}

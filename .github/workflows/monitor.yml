@@ -1,0 +1,34 @@
+name: weekly lake monitor
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"        # Mondays 03:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install numpy scipy rasterio pyproj shapely matplotlib pandas requests pillow
+      - name: Check watchlist lakes
+        working-directory: scripts
+        env:
+          AWS_NO_SIGN_REQUEST: "YES"
+          GDAL_DISABLE_READDIR_ON_OPEN: "EMPTY_DIR"
+        run: python monitor.py --watchlist ../watchlist.json --out ../status --days 120
+      - name: Commit status if it changed
+        run: |
+          git config user.name "ismoilovdevml"
+          git config user.email "107093598+ismoilovdevml@users.noreply.github.com"
+          git add status/latest.json status/STATUS.md
+          git diff --cached --quiet || git commit -m "Weekly lake status $(date -u +%Y-%m-%d)"
+          git push

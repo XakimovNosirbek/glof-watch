@@ -1,0 +1,13 @@
+{
+  "_note": "Lakes checked by scripts/monitor.py. bbox/seed are lon0,lat0,lon1,lat1. gr = colour test threshold ((G-R)/(G+R)); -1 disables it for very turbid lakes.",
+  "lakes": [
+    {"id": "imja_tsho", "name": "Imja Tsho", "country": "Nepal", "type": "moraine-dammed",
+     "bbox": [86.9015, 27.8790, 86.9465, 27.9185], "seed": [86.9180, 27.8960, 86.9300, 27.9010], "gr": -1},
+    {"id": "lower_ngole", "name": "Lower Ngole (Thame 2024 GLOF source)", "country": "Nepal", "type": "moraine-dammed",
+     "bbox": [86.5680, 27.8240, 86.5775, 27.8315], "seed": [86.5718, 27.8271, 86.5738, 27.8288], "gr": -1},
+    {"id": "shisper", "name": "Shisper ice-dammed lake", "country": "Pakistan", "type": "ice-dammed",
+     "bbox": [74.540, 36.348, 74.590, 36.378], "seed": [74.556, 36.357, 74.572, 36.364], "gr": 0.02},
+    {"id": "merzbacher", "name": "Merzbacher ice-dammed lake", "country": "Kyrgyzstan", "type": "ice-dammed",
+     "bbox": [79.800, 42.180, 79.930, 42.245], "seed": [79.845, 42.205, 79.860, 42.215], "gr": 0.02}
+  ]
+}

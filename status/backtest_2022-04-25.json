@@ -1,0 +1,42 @@
+{
+ "as_of": "2022-04-25",
+ "window_days": 120,
+ "generated": "2026-11-12T13:08:11Z",
+ "lakes": [
+  {
+   "id": "shisper",
+   "name": "Shisper ice-dammed lake",
+   "country": "Pakistan",
+   "type": "ice-dammed",
+   "status": "GROWTH",
+   "recent_km2": 0.2296,
+   "baseline_km2": 0.1503,
+   "change_pct": 52.8,
+   "clear_scenes": 5,
+   "last_scene": "2022-04-15",
+   "map": "https://www.google.com/maps/@36.3630,74.5650,3000m/data=!3m1!1e3",
+   "series": [
+    [
+     "2022-03-11",
+     0.1168
+    ],
+    [
+     "2022-03-26",
+     0.1503
+    ],
+    [
+     "2022-04-05",
+     0.2203
+    ],
+    [
+     "2022-04-10",
+     0.2293
+    ],
+    [
+     "2022-04-15",
+     0.2299
+    ]
+   ]
+  }
+ ]
+}

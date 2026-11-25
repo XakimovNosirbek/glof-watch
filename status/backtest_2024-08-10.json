@@ -1,0 +1,50 @@
+{
+ "as_of": "2024-08-10",
+ "window_days": 120,
+ "generated": "2026-11-12T13:01:42Z",
+ "lakes": [
+  {
+   "id": "lower_ngole",
+   "name": "Lower Ngole (Thame 2024 GLOF source)",
+   "country": "Nepal",
+   "type": "moraine-dammed",
+   "status": "OK",
+   "recent_km2": 0.052,
+   "baseline_km2": 0.0438,
+   "change_pct": 18.7,
+   "clear_scenes": 7,
+   "last_scene": "2024-06-10",
+   "map": "https://www.google.com/maps/@27.8278,86.5727,3000m/data=!3m1!1e3",
+   "series": [
+    [
+     "2024-04-21",
+     0.0373
+    ],
+    [
+     "2024-04-26",
+     0.0418
+    ],
+    [
+     "2024-05-01",
+     0.0438
+    ],
+    [
+     "2024-05-11",
+     0.0461
+    ],
+    [
+     "2024-05-21",
+     0.0512
+    ],
+    [
+     "2024-05-31",
+     0.0515
+    ],
+    [
+     "2024-06-10",
+     0.0525
+    ]
+   ]
+  }
+ ]
+}
